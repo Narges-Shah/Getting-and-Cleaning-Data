@@ -1,12 +1,12 @@
 #Create the Data directory
-  if(!file.exists("./data"))
-    dir.create("./data")
+  if(!file.exists("./G&C_Data"))
+    dir.create("./G&C_Data")
 
 #Download and Unzip files
   url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
-  download.file(url, destfile="./data/Dataset.zip", method="curl")
-  unzip(zipfile="./data/Dataset.zip", exdir="./data")
-  path <- file.path("./data", "UCI HAR Dataset")
+  download.file(url, destfile="./G&C_Data/Dataset.zip", method="curl")
+  unzip(zipfile="./G&C_Data/Dataset.zip", exdir="./G&C_Data")
+  path <- file.path("./G&C_Data", "UCI HAR Dataset")
   all_files<-list.files(path, recursive=TRUE)
 
 #Read Test and Train Data Regarding each Subject and their Activity
