@@ -52,4 +52,4 @@
   library(plyr);
   Data_2nd<-aggregate(. ~Subjects + Activity, Data, mean)
   Data_2nd<-Data_2nd[order(Data_2nd$Subjects, Data_2nd$Activity),]
-  write.table(Data_2nd, file = "tidydata.txt", row.name = FALSE)
+  write.table(Data_2nd, file = "./G&C_Data/tidydata.txt", row.name = FALSE)
