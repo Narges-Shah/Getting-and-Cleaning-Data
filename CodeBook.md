@@ -38,14 +38,14 @@ Files:
 
 Directories:
 * test: Datasets regarding test group
-** X_test.txt: Test set
-** y_test.txt: Test labels 
-** subject_test.txt: subject who performed the test
+  * X_test.txt: Test set
+  * y_test.txt: Test labels 
+  * subject_test.txt: subject who performed the test
 
 * train: Datasets regarding train group
-** X_train.txt: Training set 
-** y_train.txt: Training labels 
-** subject_train.txt: subject who performed the test
+  * X_train.txt: Training set 
+  * y_train.txt: Training labels 
+  * subject_train.txt: subject who performed the test
 
 
 Unit of Measurement: 
